@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/NtwaliHeritier/restaurant-js#readme",
   "devDependencies": {
+    "css-loader": "^5.0.1",
+    "path": "^0.12.7",
+    "style-loader": "^2.0.0",
     "webpack": "^5.10.1",
     "webpack-cli": "^4.2.0"
   }
