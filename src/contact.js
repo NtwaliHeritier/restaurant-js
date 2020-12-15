@@ -1,9 +1,9 @@
-const Contact = (()=>{
-    const contactCreate = ()=>{
-    const contact = document.createElement('div')
-    contact.setAttribute('class', 'contact')
-    contact.classList.add('panel')
-    contact.setAttribute('id', 'contactpage')
+const Contact = (() => {
+  const contactCreate = () => {
+    const contact = document.createElement('div');
+    contact.setAttribute('class', 'contact');
+    contact.classList.add('panel');
+    contact.setAttribute('id', 'contactpage');
     contact.innerHTML = `
         <form>
           <div class="email">
@@ -18,11 +18,11 @@ const Contact = (()=>{
             <button>Submit</button>
           </div>
         </form>
-    `
-        const container = document.getElementById('content')
-        container.appendChild(contact)
-    }
-    return { contactCreate }
+    `;
+    const container = document.getElementById('content');
+    container.appendChild(contact);
+  };
+  return { contactCreate };
 })();
 
-export default Contact
+export default Contact;

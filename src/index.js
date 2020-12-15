@@ -1,5 +1,5 @@
-import Navbar from './nav'
+import Navbar from './nav';
 
-document.addEventListener('DOMContentLoaded', ()=>{
-    Navbar.navCreate()
-})
+document.addEventListener('DOMContentLoaded', () => {
+  Navbar.navCreate();
+});
