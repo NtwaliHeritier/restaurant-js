@@ -1,125 +1,123 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
 }
 
 body {
-    background: linear-gradient(180deg, rgba(61, 61, 61, 0.4) 0%, rgba(61, 61, 61, 0.4) 96%), url(../assets/images/food.jpg);
-    height: 100vh;
-    background-position: center;
+  background: linear-gradient(180deg, rgba(61, 61, 61, 0.4) 0%, rgba(61, 61, 61, 0.4) 96%), url(../assets/images/food.jpg);
+  height: 100vh;
+  background-position: center;
 }
 
 nav {
-    margin: 1%;
-    display: flex;
-    justify-content: space-between;
+  margin: 1%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
 }
 
 .nav-links span {
-    font-size: 17px;
-    font-weight: 500;
-    padding: 5px;
-    cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .active-link {
-    border-bottom: 3px solid #0099ff;
+  border-bottom: 3px solid #09f;
 }
 
 .home {
-    margin-top: 5%;
-    height: 80vh;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 5%;
+  height: 80vh;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.home p, .home ul {
-    text-align: center;
+.home p,
+.home ul {
+  text-align: center;
 }
 
 .home p {
-    font-size: 35px;
-    font-weight: 800;
-    color: #00ff55;
+  font-size: 35px;
+  font-weight: 800;
+  color: #0f5;
 }
 
 .home li {
-    font-size: 25px;
-    font-weight: 500;
-    list-style: none;
+  font-size: 25px;
+  font-weight: 500;
+  list-style: none;
 }
 
 .menu {
-    display: none;
-    margin-top: 5%;
-    height: 60vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: space-around;
-    align-items: center;
+  display: none;
+  margin-top: 5%;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: space-around;
+  align-items: center;
 }
 
 .menu span {
-    display: block;
-    font-size: 30px;
+  display: block;
+  font-size: 30px;
 }
 
 .menu h3 {
-    font-size: 40px;
-    color: #00ff55;
+  font-size: 40px;
+  color: #0f5;
 }
 
 .contact {
-    margin: 6% auto 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 80%;
-    padding: 2% 0 3%;
-    display: none;
+  margin: 6% auto 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  padding: 2% 0 3%;
+  display: none;
 }
 
 form {
-    width: 100%;
+  width: 100%;
 }
 
-.contact button {
-    background-color: #00ff55;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.email, .textarea {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 2% auto;
+.email,
+.textarea {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 2% auto;
 }
 
 .email input {
-    padding: 2%;
+  padding: 2%;
 }
 
 .contact button {
-    width: 70%;
-    display: block;
-    margin: 1% auto 0;
-    font-weight: 700;
-    font-size: 25px;
+  background-color: #0f5;
+  padding: 10px;
+  width: 70%;
+  display: block;
+  margin: 1% auto 0;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 label {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .active {
-    display: flex;
+  display: flex;
 }
