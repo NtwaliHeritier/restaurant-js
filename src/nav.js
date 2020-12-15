@@ -1,5 +1,6 @@
 import Home from './home'
 import Menu from './menu'
+import Contact from './contact'
 
 const Navbar = (()=>{
     const navCreate = ()=>{
@@ -30,6 +31,7 @@ const Navbar = (()=>{
         content.appendChild(container)
         Home.homeCreate()
         Menu.menuCreate()
+        Contact.contactCreate()
         const spans = document.querySelectorAll('.panel')
         navLinks.addEventListener('click', (e)=> {
             if(e.target.tagName == "SPAN") {
