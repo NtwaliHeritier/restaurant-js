@@ -1,1 +1,5 @@
-// alert("Hello there!!")
+import Navbar from './nav'
+
+document.addEventListener('DOMContentLoaded', ()=>{
+    Navbar.navCreate()
+})

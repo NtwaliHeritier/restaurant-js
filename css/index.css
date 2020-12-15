@@ -27,8 +27,96 @@ nav {
     font-size: 17px;
     font-weight: 500;
     padding: 5px;
+    cursor: pointer;
+}
+
+.active-link {
+    border-bottom: 3px solid #0099ff;
+}
+
+.home {
+    margin-top: 5%;
+    height: 80vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home p, .home ul {
+    text-align: center;
+}
+
+.home p {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.home li {
+    font-size: 25px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.menu {
+    display: none;
+    margin-top: 5%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu span {
+    display: block;
+    font-size: 30px;
+}
+
+.menu h3 {
+    font-size: 40px;
+    color: #00ff55;
+}
+
+.contact {
+    margin: 6% auto 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    padding: 2% 0 3%;
+    display: none;
+}
+
+form {
+    width: 100%;
+}
+
+.contact button {
+    background-color: #00ff55;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.email, .textarea {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 2% auto;
+}
+
+.email input {
+    padding: 2%;
+}
+
+.contact button {
+    width: 70%;
+    display: block;
+    margin: 1% auto 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+label {
+    font-size: 20px;
 }
 
 .active {
-    border-bottom: 3px solid #00fff2;
+    display: flex;
 }
